@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
-//	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.1")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	runtimeOnly("mysql:mysql-connector-java")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
