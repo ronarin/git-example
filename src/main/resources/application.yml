@@ -1,1 +1,9 @@
-
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3314/sample_db
+    username: user
+    password: password
+    platform: mysql
+  mybatis:
+    configuration:
+      map-underscore-to-camel-case: true
